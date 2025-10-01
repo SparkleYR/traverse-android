@@ -1,6 +1,6 @@
 # Traverse Android Client
 
-Traverse is a minimal Jetpack Compose Android client that integrates with the LeetFeedback backend contained in this workspace. The app offers authentication, problem tracking, social features, gamification, and admin tools that map directly to the backend API surface.
+Traverse is a minimal Jetpack Compose Android client that integrates with the LeetFeedback backend. The app offers authentication, problem tracking, social features, gamification, and admin tools that map directly to the backend API surface.
 
 ## Features
 
