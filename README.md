@@ -22,12 +22,6 @@ Traverse is a minimal Jetpack Compose Android client that integrates with the Le
 
 Refer to `docs/backend-overview.md` and `docs/traverse-architecture.md` for the API matrix and deeper design notes.
 
-## Configuration
-
-1. The app now targets the hosted backend at `https://leetfeedback-backend.onrender.com/api/` by default. If you want to point at a local server instead, change `TRAVERSE_API_BASE_URL` in `app/build.gradle.kts` (use `http://10.0.2.2:5000/api/` for Android emulators).
-2. Provide valid environment variables for the backend (`MONGODB_URI`, `JWT_SECRET`, GitHub OAuth keys) as required.
-3. Launch the Android app on an emulator or device. Use the authentication form to create/sign in to an account.
-
 ## Build & Run
 
 ```powershell
@@ -36,10 +30,3 @@ Refer to `docs/backend-overview.md` and `docs/traverse-architecture.md` for the 
 ```
 
 Open the project in Android Studio for a richer development experience. The first launch will automatically restore persisted sessions and kick off data refreshes.
-
-## Next Steps
-
-- Add paginated lists with lazy loading.
-- Provide input validation and inline error messages for forms.
-- Expand testing coverage with Compose UI tests and repository-level unit tests.
-```}
